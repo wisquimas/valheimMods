@@ -1,0 +1,154 @@
+{
+    "sOriginalPrefabName" : "RRR_NPC",
+    "sNewPrefabName" : "FriendlyMelee_Fem_0",
+    "Category_Appearance" : {
+       "vScale" : {
+          "fX" : 0.9,
+          "fY" : 0.9,
+          "fZ" : 0.9
+       },
+       "cTintColor" : null,
+       "cBodySmoke" : null,
+       "cBodyFlames" : null
+    },
+    "Category_Character" : {
+       "sName" : "Starving Drifter",
+       "sFaction" : "Players",
+       "bBoss" : false,
+       "sBossEvent" : "",
+       "sDefeatSetGlobalKey" : "",
+       "fMoveSpeedMulti" : 1.2,
+       "bToleratesWater" : true,
+       "bToleratesFire" : false,
+       "bToleratesSmoke" : false,
+       "fHealth" : 50,
+       "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+    },
+    "Category_Humanoid" : {
+       "dtAttackDamageOverride" : null,
+       "fAttackDamageTotalOverride" : null,
+       "sAttackProjectileOverride" : null,
+       "aDefaultItems" : [
+         "ArmorRagsLegs"
+       ],
+       "aRandomWeapon" : [
+          "Club",
+          "KnifeFlint",
+          "Bow"
+       ],
+       "aRandomArmor" : [
+         "ArmorRagsChest",
+         ""
+       ],
+       "aRandomShield" : [
+          
+       ],
+       "aaRandomSets" : [
+          
+       ]
+    },
+    "Category_BaseAI" : {
+       "fViewRange" : 30,
+       "fViewAngle" : 100,
+       "fHearRange" : 9999,
+       "sPathAgentType" : "Humanoid",
+       "fRandomCircleInterval" : 2,
+       "fRandomMoveInterval" : 30,
+       "fRandomMoveRange" : 3,
+       "bAvoidFire" : false,
+       "bAfraidOfFire" : false,
+       "bAvoidWater" : true,
+       "sSpawnMessage" : "",
+       "sDeathMessage" : ""
+    },
+    "Category_MonsterAI" : {
+       "fAlertRange" : 20,
+       "bFleeIfHurtWhenTargetCantBeReached" : true,
+       "bFleeIfNotAlerted" : false,
+       "fFleeIfLowHealth" : 0.5,
+       "bCirculateWhileCharging" : true,
+       "bCirculateWhileChargingFlying" : false,
+       "bEnableHuntPlayer" : false,
+       "bAttackPlayerObjects" : false,
+       "bAttackPlayerObjectsWhenAlerted" : false,
+       "fInterceptTimeMax" : 2,
+       "fInterceptTimeMin" : 0,
+       "fMaxChaseDistance" : 300,
+       "fMinAttackInterval" : 0,
+       "fCircleTargetInterval" : 10,
+       "fCircleTargetDuration" : 3,
+       "fCircleTargetDistance" : 5,
+       "aConsumeItems" : [
+         "CookedMeat",
+         "NeckTailGrilled"
+       ],
+       "fConsumeRange" : 2,
+       "fConsumeSearchRange" : 5,
+       "fConsumeSearchInterval" : 10,
+       "fConsumeHeal" : 30
+    },
+    "Category_CharacterDrop" : {
+       "bReplaceOriginalDrops" : true,
+       "drDrops" : [
+          
+       ]
+    },
+    "Category_Special" : {
+       "bCanTame" : true,
+       "bAlwaysTame" : true,
+       "bCommandableWhenTame" : true,
+       "bCanProcreateWhenTame" : false,
+       "bSfxNoAlert" : false,
+       "bSfxNoIdle" : true,
+       "bSfxNoHit" : false,
+       "bSfxNoDeath" : false,
+       "bFxNoTame" : true
+    },
+    "Category_NpcOnly" : {
+       "bIsFemale" : true,
+       "bNoBeardIfFemale": true,
+       "bRandomGender" : false,
+       "aBeardIds" : [
+          "BeardNone"
+       ],
+       "aHairIds" : [
+          "Hair7",
+          "Hair8",
+          "Hair9"      
+        ],
+       "cSkinColorMin" : {
+          "fRed" : 0.5,
+          "fGreen" : 0.5,
+          "fBlue" : 0.5
+       },
+       "cSkinColorMax" : {
+          "fRed" : 0.9,
+          "fGreen" : 0.9,
+          "fBlue" : 0.9
+       },
+       "cHairColorMin" : {
+          "fRed" : 0.5,
+          "fGreen" : 0.5,
+          "fBlue" : 0.2
+       },
+       "cHairColorMax" : {
+          "fRed" : 0.5,
+          "fGreen" : 0.5,
+          "fBlue" : 0.6
+       },
+       "fHairValueMin" : 0.6,
+       "fHairValueMax" : 1
+    },
+    "sConfigFormatVersion" : "0.2.0"
+ }

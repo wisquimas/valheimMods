@@ -1,0 +1,156 @@
+groups:
+    RRR NPCs:
+    - RRR_Hostile_T1
+    - RRR_Hostile_T2
+    - RRR_Hostile_T3
+    - RRR_Hostile_T4
+    - RRR_Hostile_T5
+    - RRR_Hostile_T6
+    FriendliesMeadows0:
+    - RRRN_FriendlyMelee_Fem_0
+    - RRRN_FriendlyMelee_Male_0
+
+    Friendlies:
+    - RRRN_Friendly1
+    - RRRN_Friendly2
+    - RRRN_Friendly3
+    - RRRN_Friendly4
+    - RRRN_Friendly05
+    - RRRN_Friendly15
+    - RRRN_Friendly25
+    - RRRN_Friendly35
+    - RRRN_Friendly45
+
+FriendliesMeadows0:
+    stars: [10, 5]
+    effect: 0
+    infusion:
+        Chaos: [30, 70]
+        Fire: 0
+        Frost: 0
+        Poison: 0
+        Lightning: 0
+        Spirit: 0
+
+RRRN_Friendly05:
+    stars: [15, 10, 5]
+    effect: 
+        Quick: [15, 20, 40]
+        Aggressive: [20, 30, 50]
+        Regenerating: 0
+        Curious: 0
+        Splitting: 0
+        Armored: 0
+    infusion: 0
+
+
+RRRN_Friendly1:
+    stars: [20, 10]
+    effect:
+        Quick: 0
+        Aggressive: 0
+        Regenerating: 0
+        Curious: 0
+        Splitting: [30, 40]
+        Armored: 0
+    infusion: 0
+
+RRRN_Friendly15:
+    stars: [30, 20, 10]
+    effect:
+        Quick: 0
+        Aggressive: 0
+        Regenerating: 0
+        Curious: 0
+        Splitting: 0
+        Armored: [20, 30, 40]
+    infusion: 0
+
+RRRN_Friendly2:
+    stars: [20, 10]
+    effect:
+        Quick: [20, 10]
+        Aggressive: 0
+        Regenerating: [20, 10]
+        Curious: 0
+        Splitting: 0
+        Armored: 0
+    infusion:
+        Chaos: 0
+        Fire: 0
+        Frost: 0
+        Poison: [40, 70]
+        Lightning: 0
+        Spirit: 0
+
+RRRN_Friendly25:
+    stars: [30, 20, 10]
+    effect:
+        Quick: 0
+        Aggressive: 0
+        Regenerating: 0
+        Curious: 0
+        Splitting: 0
+        Armored: [30, 60, 80]
+    infusion:
+        Chaos: 0
+        Fire: 0
+        Frost: 0
+        Poison: 0
+        Lightning: 0
+        Spirit: [30, 60, 80]
+
+RRRN_Friendly3:
+    stars: [20, 10]
+    effect: 0
+    infusion:
+        Chaos: 0
+        Fire: 0
+        Frost: [30, 60, 80]
+        Poison: 0
+        Lightning: 0
+        Spirit: 0
+
+RRRN_Friendly35:
+    stars: [30, 20, 10]
+    effect:
+        Quick: 0
+        Aggressive: 0
+        Regenerating: 0
+        Curious: 0
+        Splitting: 0
+        Armored: [30, 60, 80]
+    infusion:
+        Chaos: 0
+        Fire: 0
+        Frost: [30, 60, 80]
+        Poison: 0
+        Lightning: 0
+        Spirit: 0
+
+RRRN_Friendly4:
+    stars: [20, 10]
+    effect:
+        Quick: [30, 60]
+        Aggressive: [30, 60]
+        Regenerating: 0
+        Curious: 0
+        Splitting: 0
+        Armored: 0
+    infusion: 0
+
+RRRN_Friendly45:
+    stars: [30, 20, 10]
+    effect:
+        Quick: 0
+        Aggressive: 0
+        Regenerating: [30, 60, 80]
+        Curious: 0
+        Splitting: 0
+        Armored: [30, 60, 80]
+    infusion: 0
+
+RRR NPCs:
+    effect:
+        Splitting: 0
+    infusion: 0
